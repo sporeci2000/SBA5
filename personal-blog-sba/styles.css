@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 60px;
+    background-color: #dfebf8;
+}
+
+h1, h2, h3 {
+    color: #0013a0;
+    font-family:Arial, Helvetica, serif;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+#new-post-form {
+    border: 1px solid #030000; 
+    padding: 20px;     
+    border-radius: 8px;      
+}
+
+.form-inputs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #0881d7;
+    color: white;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #07be60;
+}
+
+#posts-display {
+    margin-top: 30px;
+}
+
+h3{
+    margin-top: 40px;
+}
+
+#posts-display {
+    list-style: none;
+    padding: 0;
+}
+
+.post {
+    border: 1px solid #0a2c75;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 18px;
+}
+
+.post h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.post p {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.post small {
+    display: block;
+    margin-bottom: 12px;
+    color: #767879;
+}
+
+.post button {
+    margin-right: 10px;
+}
