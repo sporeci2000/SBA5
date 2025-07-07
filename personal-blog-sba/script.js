@@ -85,9 +85,6 @@ function deletePost(postId) {
     renderPosts();
 }
 
-//Edit button
-
-
 //Validate inputs function
 function validateFormInputs() {
     let validForm = true;
@@ -109,7 +106,7 @@ function validateFormInputs() {
 }
 
 
-//Gotm submission event listener
+//Form submission event listener
 postArea.addEventListener("submit", function (event) {
     event.preventDefault();
 

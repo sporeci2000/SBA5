@@ -3,12 +3,14 @@ body {
     max-width: 600px;
     margin: auto;
     padding: 60px;
-    background-color: #dfebf8;
+    background-color: #bed9f6;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: #0013a0;
-    font-family:Arial, Helvetica, serif;
+    font-family: Arial, Helvetica, serif;
 }
 
 h2 {
@@ -16,9 +18,9 @@ h2 {
 }
 
 #new-post-form {
-    border: 1px solid #030000; 
-    padding: 20px;     
-    border-radius: 8px;      
+    border: 1px solid #030000;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .form-inputs {
@@ -32,7 +34,8 @@ label {
     font-weight: bold;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
@@ -47,7 +50,7 @@ button {
     padding: 8px 15px;
     background-color: #0881d7;
     color: white;
-    border:none;
+    border: none;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -60,7 +63,7 @@ button:hover {
     margin-top: 30px;
 }
 
-h3{
+h3 {
     margin-top: 40px;
 }
 
@@ -70,10 +73,17 @@ h3{
 }
 
 .post {
-    border: 1px solid #0a2c75;
+    border: 1px solid #0013a0;
     border-radius: 10px;
     padding: 15px 20px;
     margin-bottom: 18px;
+}
+
+hr {
+    border: none;
+    height: 0.5px;
+    background-color: #000000;
+    margin: 10px 0;
 }
 
 .post h3 {
